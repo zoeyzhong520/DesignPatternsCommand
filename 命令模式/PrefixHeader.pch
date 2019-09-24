@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  命令模式
+//
+//  Created by zhifu360 on 2019/9/24.
+//  Copyright © 2019 ZZJ. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Command.h"
+#import "Car.h"
+#import "Door.h"
+#import "EleControl.h"
+#import "CarOnCommand.h"
+#import "CarOffCommand.h"
+#import "DoorOpenCommand.h"
+#import "DoorShutCommand.h"
+
+
+#endif /* PrefixHeader_pch */
